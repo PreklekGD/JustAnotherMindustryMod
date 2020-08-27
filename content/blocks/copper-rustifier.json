@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Copper Rustifier
+description: Reveals copper to the atmospheric conditions and mixes it with water to make it into rusty scrap.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
+}
+requirements: [
+  lead/120
+  graphite/20
+  silicon/20
+  copper/100
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: scrap/1

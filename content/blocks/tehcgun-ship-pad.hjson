@@ -1,0 +1,17 @@
+name: Tehcgun Ship Pad
+description: Transform into the Tehcgun ship.
+type: MechPad
+mech: tehcgun-ship
+size: 2
+consumes: {
+  power: 0.7
+}
+category: upgrade
+research: wraith-factory
+requirements: [
+  copper/420
+  lead/320
+  silicon/120
+  graphite/50
+  bronze/100
+]

@@ -1,0 +1,38 @@
+type: SingleTypeGenerator
+name: Breakdown Generator
+description: Generates energy from breaking all vanilla items.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 30
+powerProduction: 1.1
+consumes: {
+  items: {
+    items: [
+      copper/1
+	  lead/1
+	  coal/1
+	  blast-compound/1
+	  graphite/1
+	  metaglass/1
+	  phase-fabric/1
+	  plastanium/1
+	  pyratite/1
+	  sand/1
+	  scrap/1
+	  silicon/1
+	  spore-pod/1
+	  surge-alloy/1
+	  thorium/1
+	  titanium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  graphite/50
+]
+category: power
+research: rtg-generator

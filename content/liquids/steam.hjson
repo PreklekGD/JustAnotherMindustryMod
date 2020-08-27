@@ -1,0 +1,6 @@
+name: Steam
+description: Hot water than became steam.
+temperature: 0
+viscosity: 0.8
+effect: melting
+color: ffffff

@@ -1,0 +1,6 @@
+name: Acid
+description: A very corrosive liquid. WARNING DO NOT TOUCH!!!
+temperature: 0
+viscosity: 0.8
+effect: melting
+color: 3dff50

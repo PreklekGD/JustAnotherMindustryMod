@@ -1,0 +1,6 @@
+type: material
+name: Bronze
+description: Material made from Tin and Copper. Can be used for some machines.
+hardness: 3
+cost: 2
+color: ffffff

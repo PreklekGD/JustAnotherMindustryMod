@@ -1,0 +1,20 @@
+name: Hydraulic Drill
+description: Super duper slow drill that uses water preasure to mine.
+type: Drill
+size: 2
+tier: 10
+drillTime: 650
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 2
+    booster: false
+  }
+}
+requirements: [
+  lead/80
+  silicon/10
+  graphite/50
+]
+category: production
+research: pneumatic-drill

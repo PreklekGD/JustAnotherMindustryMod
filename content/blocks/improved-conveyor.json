@@ -1,0 +1,14 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Improved Conveyor",
+	"description": "Very strong conveyor. (ik very good description lol)",
+	"health": 215,
+	"requirements": [
+		{"item": "lead", "amount": 2},
+		{"item": "silicon", "amount": 2},
+		{"item": "graphite", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.10,
+	"research": "armored-conveyor"
+}

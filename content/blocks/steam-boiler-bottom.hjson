@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Steam Boiler
+description: Creates steam to make powah!!
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 30
+consumes: {
+  items: {
+    items: [
+      coal/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.25
+  }
+}
+requirements: [
+  lead/200
+  metaglass/10
+  silicon/25
+  graphite/100
+]
+category: crafting
+research: kiln
+outputLiquid: steam/25

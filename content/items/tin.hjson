@@ -1,0 +1,6 @@
+type: material
+name: Tin
+description: Type of metal. Makes Bronze with Copper.
+hardness: 2
+cost: 2
+color: ffffff

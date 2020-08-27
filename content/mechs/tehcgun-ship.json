@@ -1,0 +1,16 @@
+name: Tehcgunner
+description: Pretty fast-reload ship. Shots Revenant's missile rockets.
+speed: 1
+boostSpeed: 1.5
+buildPower: 2
+engineColor: "666495"
+flying: true
+health: 300
+weaponOffsetX: 4
+weapon: {
+  name: laser
+  length: 1.5
+  reload: 15
+  alternate: true
+  bullet: missileRevenant
+}

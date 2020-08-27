@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Bronze Crucible
+description: Melts tin with coppper into bronze.
+liquidCapacity: 100
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.9
+  items: {
+    items: [
+      tin/1
+    ]
+  }
+  liquid: {
+    liquid: liquid-molten-copper
+    amount: 0.1
+  }
+}
+requirements: [
+  lead/120
+  graphite/20
+  silicon/20
+  tin/10
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: bronze/1

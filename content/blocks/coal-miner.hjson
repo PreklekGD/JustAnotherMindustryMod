@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: Coal Miner
+description: Drill that trying collect coal from everything. Powered by water.
+size: 2
+hasItems: true
+craftTime: 100
+craftEffect: smeltsmoke
+consumes: {
+  liquid: {
+    liquid: water
+	amount: 0.01
+	}
+}
+outputItem: coal/1
+requirements: [
+  copper/80
+  lead/60
+  tin/40
+]
+category: production
+research: pneumatic-drill
+idleSound: respawning
+idleSoundVolume: 0.5

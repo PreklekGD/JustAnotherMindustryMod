@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: Acid Mixer Station
+description: Mixing some materials into very toxic liquid XD
+itemCapacity: 10
+liquidCapacity: 80
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 75
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.8
+  items: {
+    items: [
+      spore-pod/3
+	  sand/3
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 1
+  }
+}
+requirements: [
+  copper/100
+  lead/30
+  graphite/35
+  silicon/45
+]
+category: crafting
+research: cultivator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: acid/50

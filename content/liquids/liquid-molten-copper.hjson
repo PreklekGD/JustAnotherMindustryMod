@@ -1,0 +1,6 @@
+name: Molten Copper
+description: !WARNING! Very hot XD
+temperature: 5
+viscosity: 0.8
+effect: melting
+color: ff9054

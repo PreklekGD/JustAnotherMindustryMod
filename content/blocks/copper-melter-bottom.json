@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Copper Melter
+description: Melts copper into very hot liquid named molten copper (woah). Used to make bronze.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+}
+requirements: [
+  copper/30
+  lead/40
+  tin/40
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: liquid-molten-copper/1.5

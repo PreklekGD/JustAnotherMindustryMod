@@ -1,0 +1,33 @@
+type: ImpactReactor
+name: Steam Turbine
+description: Generates Powah from Steam. (really)
+itemCapacity: 10
+hasLiquids: true
+health: 5000
+baseExplosiveness: 9000
+size: 4
+warmupSpeed: 0.00030
+baseExplosiveness: 5000
+itemDuration: 300
+explosionRadius: 4
+explosionDamage: 100
+plasmas: 3
+powerProduction: 8.2
+consumes: {
+  power: 0
+  liquid: {
+    liquid: steam
+	amount: 0.25
+  }
+}
+requirements: [
+  lead/200
+  silicon/50
+  graphite/150
+]
+category: power
+research: combustion-generator
+activeSound: thruster
+activeSoundVolume: 0.85
+idleSound: respawning
+idleSoundVolume: 0.25

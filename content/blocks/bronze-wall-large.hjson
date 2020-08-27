@@ -1,0 +1,10 @@
+name: Bronze Wall
+description: Large Bronze wall... *insert large XD*
+type: Wall
+health: 6000
+size: 2
+requirements: [
+  bronze/32
+]
+category: defense
+research: bronze-wall

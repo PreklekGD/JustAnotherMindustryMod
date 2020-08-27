@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Radioactive Compound Refiner
+description: Refines titanium to some thorium with a little help of acid lol. Very helpful when you dont have any thorium on the world.
+itemCapacity: 50
+liquidCapacity: 120
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 75
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.2
+  items: {
+    items: [
+      spore-pod/3
+    ]
+  }
+  liquid: {
+    liquid: acid
+    amount: 0.2
+  }
+}
+requirements: [
+  copper/420
+  lead/30
+  graphite/35
+  surge-alloy/20
+]
+category: crafting
+research: cultivator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: thorium/1
