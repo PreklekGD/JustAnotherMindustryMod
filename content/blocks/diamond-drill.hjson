@@ -3,7 +3,7 @@ description: Pretty fast mini drill.
 type: Drill
 size: 1
 tier: 10
-drillTime: 200
+drillTime: 100
 requirements: [
   lead/20
   graphite/5
