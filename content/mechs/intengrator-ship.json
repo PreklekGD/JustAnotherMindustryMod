@@ -1,7 +1,7 @@
 name: Intengrator
 description: Pretty fast-reload ship. Shots Revenant's missile rockets.
 speed: 1
-boostSpeed: 1.5
+boostSpeed: 15
 buildPower: 2
 engineColor: "666495"
 flying: true
