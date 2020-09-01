@@ -1,0 +1,14 @@
+name: Diamond Drill
+description: Pretty fast mini drill.
+type: Drill
+size: 1
+tier: 10
+drillTime: 650
+requirements: [
+  lead/20
+  graphite/5
+  silicon/5
+  diamond/3
+]
+category: production
+research: laser-drill
