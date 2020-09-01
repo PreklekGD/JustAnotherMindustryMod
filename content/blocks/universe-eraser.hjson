@@ -1,17 +1,17 @@
 type: DoubleTurret
 name: Universe Eraser
-description: ZA HANDO
+description: Erasing enemies from universe.
 health: 1125
 size: 3
 reload: 100
 range: 100
-ammoUseEffect: shellEjectSmall
+ammoUseEffect: lancerLaser
 inaccuracy: 2.5
 rotatespeed: 30
 shootSound: erasure
 ammo: {
   diamond: {
-    speed: 25
+    speed: 10
     damage: 40000
     bulletWidth: 7
     bulletHeight: 11
@@ -22,7 +22,7 @@ ammo: {
 }
 requirements: [
   copper/40
-  bronze/20
+  lead/20
   diamond/30
   graphite/30
   silicon/60
