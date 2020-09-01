@@ -1,17 +1,17 @@
 type: DoubleTurret
-name: Moist Gun
+name: Gulp Gun
 description: Just a gun k?
 health: 300
 size: 2
-reload: 0.01
+reload: 10
 range: 100
 ammoUseEffect: shellEjectSmall
 inaccuracy: 2.5
 rotatespeed: 30
 ammo: {
-  copper: {
-    speed: 100
-    damage: 10
+  lead: {
+    speed: 25
+    damage: 45
     bulletWidth: 7
     bulletHeight: 11
     shootEffect: shootSmall
@@ -21,7 +21,7 @@ ammo: {
 }
 requirements: [
   copper/40
-  bronze/70
+  bronze/20
   tin/10
   graphite/30
 ]
