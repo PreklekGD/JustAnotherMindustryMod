@@ -1,7 +1,7 @@
-name: Tehcgun Ship Pad
-description: Transform into the Tehcgun ship.
+name: Intengrator Ship Pad
+description: Transform into the Intengrator ship.
 type: MechPad
-mech: tehcgun-ship
+mech: intengrator-ship
 size: 2
 consumes: {
   power: 0.7
