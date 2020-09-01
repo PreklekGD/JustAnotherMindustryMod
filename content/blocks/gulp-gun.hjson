@@ -8,6 +8,7 @@ range: 100
 ammoUseEffect: shellEjectSmall
 inaccuracy: 2.5
 rotatespeed: 30
+shootSound: gulpshot
 ammo: {
   lead: {
     speed: 25
