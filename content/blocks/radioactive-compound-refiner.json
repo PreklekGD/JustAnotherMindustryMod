@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Radioactive Compound Refiner
-description: Refines titanium to some thorium with a little help of acid lol. Very helpful when you dont have any thorium on the world.
+description: Refines titanium and spore pods to some thorium with a little help of acid lol. Very helpful when you dont have any thorium on the world.
 itemCapacity: 50
 liquidCapacity: 120
 size: 4
@@ -14,6 +14,7 @@ consumes: {
   items: {
     items: [
       spore-pod/3
+      titanium/1
     ]
   }
   liquid: {
