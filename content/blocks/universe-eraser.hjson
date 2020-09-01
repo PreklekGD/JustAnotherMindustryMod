@@ -5,7 +5,7 @@ health: 1125
 size: 3
 reload: 100
 range: 100
-ammoUseEffect: lancerLaser
+ammoUseEffect: shellEjectSmall
 inaccuracy: 2.5
 rotatespeed: 30
 shootSound: erasure
