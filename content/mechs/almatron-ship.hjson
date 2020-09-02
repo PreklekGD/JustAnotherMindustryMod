@@ -1,0 +1,16 @@
+name: Almatron
+description: Super Heavy battle mech. Shots powerfull and slow bullets.
+speed: 0.35
+boostSpeed: 15
+buildPower: 2
+engineColor: "666495"
+flying: false
+health: 2350
+weaponOffsetX: 4
+weapon: {
+  name: almatron-weapon
+  length: 1.5
+  reload: 120
+  alternate: true
+  bullet: bombOil
+}
