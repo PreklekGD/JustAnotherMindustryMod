@@ -4,7 +4,7 @@ description: Erasing enemies from universe.
 health: 1125
 size: 3
 reload: 100
-range: 500
+range: 150
 ammoUseEffect: shellEjectSmall
 shootType: lancerLaser
 powerUse: 30
