@@ -1,4 +1,4 @@
-type: Turret
+type: PowerTurret
 name: Universe Eraser
 description: Erasing enemies from universe.
 health: 1125
