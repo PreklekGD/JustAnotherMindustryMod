@@ -1,1 +1,6 @@
-
+type: material
+name: Nickel
+description: Number 28 on periodic table.
+hardness: 3
+cost: 2
+color: a6a6a6
