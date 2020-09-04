@@ -1,0 +1,14 @@
+name: Diamond Extractor
+description: Drill that mines diamonds :D
+type: Drill
+size: 2
+tier: 30
+drillTime: 100
+requirements: [
+  lead/20
+  graphite/5
+  silicon/5
+  bronze/10
+]
+category: production
+research: hydraulic-drill
