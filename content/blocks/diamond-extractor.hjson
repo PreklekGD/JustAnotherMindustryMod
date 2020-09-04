@@ -3,7 +3,7 @@ description: Drill that mines diamonds :D
 type: Drill
 size: 2
 tier: 30
-drillTime: 100
+drillTime: 400
 requirements: [
   lead/20
   graphite/5
