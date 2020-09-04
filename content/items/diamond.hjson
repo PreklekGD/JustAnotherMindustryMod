@@ -1,0 +1,6 @@
+type: material
+name: Diamond
+description: Hard and shiny material.
+hardness: 30
+cost: 2
+color: 42f5e9
