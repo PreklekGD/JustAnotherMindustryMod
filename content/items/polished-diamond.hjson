@@ -1,0 +1,6 @@
+type: material
+name: Polished Diamond
+description: Polished shiny material.
+hardness: 30
+cost: 2
+color: 42f5e9
