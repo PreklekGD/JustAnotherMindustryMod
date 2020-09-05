@@ -1,9 +1,6 @@
 type: material
 name: [pink]Bismuth
-description: Very unstable material. Used to make HTM (High Tech Machines).
-hardness: 999
-cost: 2
+description: Used to make HTM (High Tech Machines). WRYYYYYYYY.
+hardness: 35
+cost: 10
 color: 42f5e9
-explosiveness: 200
-flammability: 25
-radioactivity: 1
