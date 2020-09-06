@@ -15,6 +15,7 @@ consumes: {
       bismuth-ore/2
     ]
   }
+}
 requirements: [
   lead/120
   graphite/20
