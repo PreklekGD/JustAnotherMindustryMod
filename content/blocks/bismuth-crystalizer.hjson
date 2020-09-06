@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Bismuth Crystalizer
+description: Creates cool crystals.
+liquidCapacity: 100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 320
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.3
+  items: {
+    items: [
+      bismuth-ore/2
+    ]
+  }
+requirements: [
+  lead/120
+  graphite/20
+  silicon/20
+  cobalt/30
+  nickel/50
+]
+category: crafting
+research: bronze-crucible
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: bismuth/1
