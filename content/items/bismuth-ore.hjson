@@ -1,0 +1,6 @@
+type: material
+name: Bismuth Ore
+description: Just a shiny stone.
+hardness: 35
+cost: 10
+color: 42f5e9
